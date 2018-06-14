@@ -79,19 +79,15 @@
     </dependency>
   </dependencies>
 
-  <!--<build>-->
-    <!--<plugins>-->
-      <!--<plugin>-->
-        <!--<groupId>org.springframework.boot</groupId>-->
-        <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
-      <!--</plugin>-->
-      <!--<plugin>-->
-        <!--<groupId>io.fabric8</groupId>-->
-        <!--<artifactId>docker-maven-plugin</artifactId>-->
-        <!--<version>0.21.0</version>-->
-      <!--</plugin>-->
-    <!--</plugins>-->
-  <!--</build>-->
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
 
   <repositories>
     <repository>
